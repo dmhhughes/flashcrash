@@ -1,0 +1,21 @@
+Package: flashcrash
+Title: Animal Spirits Chart Randomizer
+Version: 0.0.0.9000
+Authors@R: 
+    person("Dylan", "Hughes", , "dylanhughes9@live.com", role = c("aut", "cre"))
+Description: Retrieve a random chart from the show notes of the Animal Spirits podcast.
+License: MIT + file LICENSE
+Imports: 
+    config,
+    golem,
+    shiny
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
+URL: https://github.com/dmhhughes/flashcrash
+BugReports: https://github.com/dmhhughes/flashcrash/issues
+Suggests: 
+    spelling,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Language: en-US
