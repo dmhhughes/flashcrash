@@ -1,0 +1,13 @@
+@font-face {
+    font-family: "Energy Station";
+    src: url("energy_station.ttf") format("truetype");
+}
+
+.custom-font {
+    font-family: "Energy Station", sans-serif;
+}
+
+h1 {
+  font-family: "Energy Station", sans-serif;
+  font-size: 64px;
+} 

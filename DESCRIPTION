@@ -6,9 +6,17 @@ Authors@R:
 Description: Retrieve a random chart from the show notes of the Animal Spirits podcast.
 License: MIT + file LICENSE
 Imports: 
+    bslib,
     config,
+    dplyr,
     golem,
-    shiny
+    pkgload,
+    polite,
+    purrr,
+    rvest,
+    shiny,
+    stringr,
+    tidyr
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.1.1
@@ -19,3 +27,5 @@ Suggests:
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
 Language: en-US
+Depends: 
+    R (>= 2.10)

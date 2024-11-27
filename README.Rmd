@@ -13,48 +13,10 @@ output: github_document
 )
 ```
 
-# `{flashcrash}`
+# flashcrash
 
-<!-- badges: start -->
-[![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
-<!-- badges: end -->
+Retrieve a random chart from the [Animal Spirits](https://podcasts.thecompoundnews.com/show/animalspirits/) podcast. *Not affiliated with Animal Spirits, Michael Batnick, Ben Carlson, or Ritholtz Wealth Management in any form.* Just something made for fun and out of love for the podcast.
 
-## Installation
+## Viewing
 
-You can install the development version of `{flashcrash}` like so:
-
-```{r}
-# FILL THIS IN! HOW CAN PEOPLE INSTALL YOUR DEV PACKAGE?
-```
-
-## Run
-
-You can launch the application by running:
-
-```{r, eval = FALSE}
-flashcrash::run_app()
-```
-
-## About
-
-You are reading the doc about version : `r golem::pkg_version()`
-
-This README has been compiled on the
-
-```{r}
-Sys.time()
-```
-
-Here are the tests results and package coverage:
-
-```{r, error = TRUE}
-devtools::check(quiet = TRUE)
-```
-
-```{r echo = FALSE}
-unloadNamespace("flashcrash")
-```
-
-```{r, error = TRUE}
-covr::package_coverage()
-```
+Check out the app at [dylanhughes.shinyapps.io/flashcrash](https://dylanhughes.shinyapps.io/flashcrash)
