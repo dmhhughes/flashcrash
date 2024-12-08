@@ -5,7 +5,7 @@ account: dylanhughes
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 13466722
-bundleId:
+bundleId: 9483041
 url: https://dylanhughes.shinyapps.io/flashcrash/
 version: 1
 asMultiple: FALSE
